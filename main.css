@@ -104,16 +104,17 @@ nav ul li {
 }
 
 .me {
-	margin-left: 830px;
-	 margin-top: 50px;
+  margin-left: 830px;
+  margin-top: 50px;
   width: 256px;
   height: 256px;
   border-radius: 50%;
+  border: 3px solid white;
   transition: all .7s;
 }
 
 .me:hover {
-	transform: scale(1.2) rotate(100deg);
+	transform: scale(1.2) rotate(120deg);
 }
 
 h2 {
