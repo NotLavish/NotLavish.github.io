@@ -1,42 +1,44 @@
 body {
 	background: #fbe8a6;
 	margin: 0;
-	font-family: "Minecraft";
+	font-family: monospace;
 }
 
 header {
+	margin: 0px;
 	background: #f4976c;
 	padding: 5px 15px;
 }
 
 header h1 {
-	margin: 5px 5px 5px 820px;
+	margin: 5px 1000px 5px 120px;
 	font-size: 60px;
+	display: inline;
+}
+
+header ul {
+	display: inline;
+}
+
+header ul li {
+	display: inline;
+}
+
+a	{
+	margin-bottom: 5000px;
+	font-size: 30px;
+	margin: 0px;
+	color: #c600c6;
+	text-decoration: none;
+	transition: 0.1s;
+}
+
+a:hover {
+	color: #42b6ff;
 }
 
 .some {
 	background-image: twitter.png;
-}
-
-.btn {
-    background-color: DodgerBlue; /* Blue background */
-    border: none; /* Remove borders */
-    color: white; /* White text */
-    padding: 12px 16px; /* Some padding */
-    font-size: 16px; /* Set a font size */
-    cursor: pointer; /* Mouse pointer on hover */
-}
-
-/* Darker background on mouse-over */
-.btn:hover {
-    background-color: RoyalBlue;
-}
-
-.twatr {
-	size: 128px;
-	border: none;
-	margin-top: 200px;
-	margin-left: 41%;
 }
 
 .intro {
@@ -63,7 +65,7 @@ header h1 {
 	background: white;
 	display: table;
 	border-radius: 20px;
-	margin-left: 800px;
+	margin-left: 820px;;
 	margin-top: 15px;
 }
 
