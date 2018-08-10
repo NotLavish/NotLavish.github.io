@@ -1,0 +1,30 @@
+body {
+  background: #ffeba5;
+  font-family: monospace;
+}
+
+.icon {
+  margin-top: 400px;
+  text-indent: -9999px;
+  width: 100px;
+  height: 100px;
+  background-size: 100px 100px;
+  display: inline-flex;
+  list-style-type: none;
+}
+
+.yt {
+  margin-right: 50px;
+  margin-left: 500px;
+  background-image: url(youtube.svg);
+}
+
+.tw {
+  margin-right: 50px;
+  background-image: url(twitter.svg);
+}
+
+.gh {
+  margin-right: 50px;
+  background-image: url(github.svg);
+}
