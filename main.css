@@ -15,7 +15,7 @@ body {
 
 .yt {
   margin-right: 50px;
-  margin-left: 700px;
+  margin-left: 650px;
   background-image: url(youtube.svg);
 }
 
@@ -27,4 +27,9 @@ body {
 .gh {
   margin-right: 50px;
   background-image: url(github.svg);
+}
+
+.gm {
+  margin-right: 50px;
+  background-image: url(gmail.png);
 }
