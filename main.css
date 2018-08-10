@@ -1,5 +1,5 @@
 body {
-  background: #ffeba5;
+  background: #485982;
   font-family: monospace;
 }
 
@@ -40,6 +40,7 @@ body {
 }
 
 .easter {
+  color: black;
   text-decoration: none;
   margin-left: 1800px;
 }
