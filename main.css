@@ -38,3 +38,8 @@ body {
 .icon:hover {
   transform: scale(1.6);
 }
+
+.easter {
+  text-decoration: none;
+  margin-left: 1800px;
+}
