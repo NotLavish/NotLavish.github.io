@@ -4,7 +4,7 @@ body {
 }
 
 .icon {
-  margin-top: 400px;
+  margin-top: 200px;
   text-indent: -9999px;
   width: 100px;
   height: 100px;
@@ -39,8 +39,30 @@ body {
   transform: scale(1.6);
 }
 
-.easter {
+#easter {
   color: black;
   text-decoration: none;
   margin-left: 1800px;
+}
+
+.form-control {
+  margin-top: 200px;
+  margin-left: 780px;
+  font-family: monospace;
+  font-size: 35px;
+  border-radius: 15px;
+  border: 7px solid #435070;
+  background-color: #485982;
+  width: 300px;
+  height: 30px;
+}
+
+.button {
+  text-indent: -9999px;
+  border: none;
+  background: none;
+  width: 40px;
+  height: 40px;
+  background-size: 40px 40px;
+  background-image: url(search.svg);
 }
