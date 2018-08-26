@@ -4,7 +4,7 @@ body {
 }
 
 .icon {
-  margin-top: 200px;
+  margin-top: 10%;
   text-indent: -9999px;
   width: 100px;
   height: 100px;
@@ -15,23 +15,23 @@ body {
 }
 
 .yt {
-  margin-right: 50px;
-  margin-left: 650px;
+  margin-right: 3%;
+  margin-left: 34%;
   background-image: url(youtube.svg);
 }
 
 .tw {
-  margin-right: 50px;
+  margin-right: 3%;
   background-image: url(twitter.svg);
 }
 
 .gh {
-  margin-right: 50px;
+  margin-right: 3%;
   background-image: url(github.svg);
 }
 
 .gm {
-  margin-right: 50px;
+  margin-right: 3%;
   background-image: url(gmail.svg);
 }
 
@@ -42,17 +42,17 @@ body {
 #easter {
   color: black;
   text-decoration: none;
-  margin-left: 1800px;
+  margin-left: 95%;
 }
 
 .form-control {
-  margin-top: 200px;
-  margin-left: 780px;
+  margin-top: 10%;
+  margin-left: 40%;
   font-family: monospace;
-  font-size: 35px;
+  font-size: 30px;
   border-radius: 15px;
   border: 7px solid #435070;
-  background-color: #485982;
+  background-color: #888fa0;
   width: 300px;
   height: 30px;
 }
