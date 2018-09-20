@@ -42,7 +42,6 @@ body {
 #easter {
   color: black;
   text-decoration: none;
-  margin-left: 95%;
 }
 
 .form-control {
@@ -65,4 +64,8 @@ body {
   height: 40px;
   background-size: 40px 40px;
   background-image: url(search.svg);
+}
+
+header {
+  text-align: right;
 }
