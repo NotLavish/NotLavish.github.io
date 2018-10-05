@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
 body {
-  background: #485982;
-  font-family: monospace;
+  background: #3f4f73;
+  font-family: Quicksand;
 }
 
 .icon {
@@ -47,7 +49,7 @@ body {
 .form-control {
   margin-top: 10%;
   margin-left: 40%;
-  font-family: monospace;
+  font-family: Quicksand;
   font-size: 30px;
   border-radius: 15px;
   border: 7px solid #435070;
