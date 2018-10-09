@@ -82,10 +82,10 @@ header {
 .container {
   background-color: white;
   text-align: center;
-  display: table;
-  margin-left: 40%;
+  display: inline-table;
+  margin-left: 45%;
   border-radius: 23%;
   padding: 0;
   width: 200px;
-  height: auto;
+  height: 150px;
 }
