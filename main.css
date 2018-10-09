@@ -13,7 +13,7 @@ body {
   background-size: 100px 100px;
   display: inline-flex;
   list-style-type: none;
-  transition: all .25s;
+  transition: all .24s;
 }
 
 .yt {
@@ -70,4 +70,22 @@ body {
 
 header {
   text-align: right;
+}
+
+--------------------------------------
+
+#ref {
+  background: #3f4f73;
+  text-align: center;
+}
+
+.container {
+  background-color: white;
+  text-align: center;
+  display: table;
+  margin-left: 40%;
+  border-radius: 23%;
+  padding: 0;
+  width: 200px;
+  height: auto;
 }
