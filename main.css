@@ -18,7 +18,7 @@ body {
 
 .yt {
   margin-right: 3%;
-  margin-left: 34%;
+  margin-left: 29%;
   background-image: url(youtube.svg);
 }
 
@@ -35,6 +35,11 @@ body {
 .gm {
   margin-right: 3%;
   background-image: url(gmail.svg);
+}
+
+.rd {
+  margin-right: 3%;
+  background-image: url(reddit.svg);
 }
 
 .icon:hover {
