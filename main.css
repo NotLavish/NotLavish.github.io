@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
 body {
   background: #3f4f73;
   font-family: Quicksand;
 }
+
+#clock {
+  font-family: 'Indie Flower', cursive;
+  margin-left: 41%;
+  font-size: 100px;
+  margin-bottom: 0%;
+}
+
 
 .icon {
   margin-top: 10%;
@@ -52,7 +61,7 @@ body {
 }
 
 .form-control {
-  margin-top: 10%;
+  margin-top: 1%;
   margin-left: 40%;
   font-family: Quicksand;
   font-size: 30px;

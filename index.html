@@ -10,6 +10,28 @@
       <a target="_blank" href="https://www.youtube.com/channel/UCgRLigeCsj-QCNLvsjYZ11Q?view_as=subscriber" id="easter">( ͡° ͜ʖ ͡°)</a>
     </header>
     <main>
+      <div id="clock"></div>
+      <script type="text/javascript">
+      setInterval(displayclock, 500)
+      function displayclock () {
+        var time = new Date();
+        var hrs = time.getHours();
+        var min = time.getMinutes();
+
+        if (hrs > 12) {
+          hrs -= 12;
+          min += ' pm';
+        }
+
+        if (hrs == 0) {
+          hrs = 12;
+          min += ' am';
+        }
+
+        document.getElementById("clock").innerHTML = hrs + ":" + min;
+      }
+      
+      </script>
       <form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank">
       <input name="sitesearch" type="hidden" value="">
       <input autocomplete="on" class="form-control search" name="q" placeholder="" required="required"  type="text">
