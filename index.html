@@ -11,6 +11,7 @@
     </header>
     <main>
       <div id="clock"></div>
+      
       <script type="text/javascript">
       setInterval(displayclock, 500)
       function displayclock () {
@@ -18,20 +19,30 @@
         var hrs = time.getHours();
         var min = time.getMinutes();
 
+        // checks if it's pm
         if (hrs > 12) {
           hrs -= 12;
           min += ' pm';
         }
 
+        if (hrs < 12) {
+          min += ' am';
+        }
+
+        //checks if it's midnight
         if (hrs == 0) {
           hrs = 12;
-          min += ' am';
+        }
+
+        //checks if it's under ten and add a zero
+        if (hrs < 10) {
+          hrs = '0' + hrs;
         }
 
         document.getElementById("clock").innerHTML = hrs + ":" + min;
       }
-      
       </script>
+      
       <form action="https://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank">
       <input name="sitesearch" type="hidden" value="">
       <input autocomplete="on" class="form-control search" name="q" placeholder="" required="required"  type="text">
