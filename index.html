@@ -18,15 +18,15 @@
         var time = new Date();
         var hrs = time.getHours();
         var min = time.getMinutes();
+        var am_pm = ' am';
 
         // checks if it's pm
         if (hrs > 12) {
           hrs -= 12;
-          min += ' pm';
+          am_pm = ' pm';
         }
 
         if (hrs < 12) {
-          min += ' am';
         }
 
         //checks if it's midnight
@@ -39,7 +39,7 @@
           hrs = '0' + hrs;
         }
 
-        document.getElementById("clock").innerHTML = hrs + ":" + min;
+        document.getElementById("clock").innerHTML = hrs + ":" + min + am_pm;
       }
       </script>
       
