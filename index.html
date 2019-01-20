@@ -9,9 +9,9 @@
     <header>
       <a target="_blank" href="https://www.youtube.com/channel/UCgRLigeCsj-QCNLvsjYZ11Q?view_as=subscriber" id="easter">( ͡° ͜ʖ ͡°)</a>
     </header>
+
     <main>
-      <div id="clock"></div>
-      
+      <div id="clock"></div> 
       <script type="text/javascript">
       setInterval(displayclock, 500)
       function displayclock () {
@@ -26,9 +26,6 @@
           am_pm = ' pm';
         }
 
-        if (hrs < 12) {
-        }
-
         //checks if it's midnight
         if (hrs == 0) {
           hrs = 12;
@@ -39,7 +36,14 @@
           hrs = '0' + hrs;
         }
 
+        //checks if it's under ten and add a zero
+        if (min < 10) {
+          min = '0' + min;
+        }
+
         document.getElementById("clock").innerHTML = hrs + ":" + min + am_pm;
+
+        console.log("I guess I'll forever be lonely ;(");
       }
       </script>
       
@@ -48,16 +52,14 @@
       <input autocomplete="on" class="form-control search" name="q" placeholder="" required="required"  type="text">
       <button class="button" type="submit">Search</button>
       </form>
+
     <div>
-      <a target="_blank" rel="noopener noreferrer" href="http://youtube.com" class="icon yt">YouTube</a>
-      <a target="_blank" rel="noopener noreferrer" href="http://github.com" class="icon gh">Github</a>
-      <a target="_blank" rel="noopener noreferrer" href="http://twitter.com" class="icon tw">Twitter</a>
-      <a target="_blank" rel="noopener noreferrer" href="http://gmail.com" class="icon gm">Gmail</a>
-      <a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com" class="icon rd">Reddit</a>
+      <a target="_blank" href="http://youtube.com" class="icon yt">YouTube</a>
+      <a target="_blank" href="http://github.com" class="icon gh">Github</a>
+      <a target="_blank" href="http://twitter.com" class="icon tw">Twitter</a>
+      <a target="_blank" href="http://gmail.com" class="icon gm">Gmail</a>
+      <a target="_blank" href="https://www.reddit.com" class="icon rd">Reddit</a>
     </div>
-  <script>
-    console.log("I guess I'll forever be lonely ;(");
-  </script>
 </main>
   </body>
 </html>
