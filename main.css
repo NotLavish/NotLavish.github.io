@@ -7,6 +7,7 @@ body {
 }
 
 #clock {
+  text-transform: uppercase;
   font-family: 'Dosis', sans-serif;
   margin-left: 41%;
   font-size: 100px;
