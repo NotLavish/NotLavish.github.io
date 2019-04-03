@@ -8,7 +8,7 @@
   </head>
   <body>
     <header>
-      <a target="_blank" href="https://www.youtube.com/channel/UCgRLigeCsj-QCNLvsjYZ11Q?view_as=subscriber" id="easter">( ͡° ͜ʖ ͡°)</a>
+      <a target="_blank" href="" id="easter">( ͡° ͜ʖ ͡°)</a>
     </header>
 
     <main>
@@ -66,7 +66,15 @@
 
   <script>
     console.log("I've always loved her since the first day I met her, I know it seems selfish of me but I can't help it. Her smile, her happiness. It makes me happy. She's the only one I love. Her voice, her laugh. Seeing her happy just makes me forget my suicidal thoughts. Sorry for this Harry Potter book, but this is probrably the only way I can express myself without someone accidentally coming across it. You would need to look for this to be able to find this. I can't explain how broken I am from the inside with verbal explaination, every time she texts me, I get so euphoric. I just want her to be happy even if it means I have to endure this broken heart. I know that she's over me but I just can't seem to get over it. </3");
-    console.log("If you read that Harry Potter book, screenshot it and dm me it and I'll probably reveal my face, I think")
+
+    var x = Math.floor((Math.random() * 2) + 1);
+    if (x == 1) {
+      var y = "https://soundcloud.com/notlavish/sets/o-o";
+    }
+    else if (x == 2) {
+    var y = "https://www.youtube.com/channel/UCgRLigeCsj-QCNLvsjYZ11Q"
+    }
+    document.getElementById("easter").setAttribute("href", y);
   </script>
 </footer>
   </body>
