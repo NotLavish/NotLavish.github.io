@@ -6,61 +6,17 @@
     <meta charset="UTF-8">
     <title>WebHub</title>
     <link rel='shortcut icon' type='image/png' href='alpaca.png' />
+    <script type="text/javascript" src="jaba.js"></script>
 </head>
 
 <body>
     <header>
-        <button id="ball">Magic 8 Ball</button>
+        <button onclick="eightBall()" id="ball">Magic 8 Ball</button>
         <a target="_blank" href="" id="easter">( ͡° ͜ʖ ͡°)</a>
-
-        <script>
-            function eightBall() {
-                var question = prompt("What would you like to ask the Magic 8 Ball");
-            }
-            document.getElementById("ball").onclick = eightBall;
-        </script>
     </header>
 
     <main>
         <div id="clock"></div>
-
-        <script type="text/javascript">
-        setInterval(displayclock, 500)
-        function displayclock () {
-        var time = new Date();
-        var hrs = time.getHours();
-        var min = time.getMinutes();
-        var am_pm;
-
-        //checks if it's am
-        if (hrs < 12) {
-            am_pm = ' am';
-        }
-
-        // checks if it's pm
-        if (hrs > 12) {
-          hrs -= 12;
-          am_pm = ' pm';
-        }
-
-        //checks if it's midnight
-        if (hrs == 0) {
-          hrs = 12;
-        }
-
-        //checks if it's under ten and add a zero
-        if (hrs < 10) {
-          hrs = '0' + hrs;
-        }
-
-        //checks if it's under ten and add a zero
-        if (min < 10) {
-          min = '0' + min;
-        }
-
-        document.getElementById("clock").innerHTML = hrs + ":" + min + am_pm;
-      }
-        </script>
 
         <div id="center">
             <div class="search_bar">
@@ -80,16 +36,5 @@
         </div>
 
     </main>
-
-    <footer>
-        <script>
-            var myLinks = ["https://www.youtube.com/channel/UCgRLigeCsj-QCNLvsjYZ11Q", "https://soundcloud.com/notlavish/sets/o-o", "https://twitter.com/NootLavish"];
-            function randomLink(list) {
-                return list[Math.floor(Math.random() * list.length)];
-            }
-            var result = randomLink(myLinks);
-            document.getElementById("easter").setAttribute("href", result);
-        </script>
-    </footer>
 </body>
 </html>
