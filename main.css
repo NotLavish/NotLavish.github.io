@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Exo');
+
+body {
+    font-family: 'Exo', sans-serif;
+    background: #3f4f73;
+}
+
+#clock {
+    text-transform: uppercase;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+}
+
+#center {
+    text-align: center;
+}
+
+header {
+    margin: 0%;
+    text-align: right;
+}
+
+#ball {
+    margin-left: 0%;
+    border: none;
+    background: none;
+    margin-right: 92%;
+}
+
+.icon {
+    margin-top: 10%;
+    text-indent: -9999px;
+    width: 100px;
+    height: 100px;
+    background-size: 100px 100px;
+    display: inline-flex;
+    transition: all .24s;
+    margin-right: 3%;
+  }
+  
+.yt {
+    background-image: url(youtube.svg);
+  }
+  
+.tw {
+    background-image: url(twitter.svg);
+  }
+  
+.gh {
+    background-image: url(github.svg);
+  }
+  
+.gm {
+    background-image: url(gmail.svg);
+  }
+  
+.rd {
+    background-image: url(reddit.svg);
+  }
+  
+.icon:hover {
+    transform: scale(1.6);
+  }
+
+.form-control {
+    font-family: 'Exo', sans-serif;
+    margin-top: 1%;
+    font-size: 30px;
+    border-radius: 15px;
+    border: 7px solid #242e42;
+    background-color: #888fa0;
+    width: 300px;
+    height: 30px;
+  }
+  
+.button {
+    text-indent: -9999px;
+    border: none;
+    background: none;
+    width: 40px;
+    height: 40px;
+    background-size: 40px 40px;
+    background-image: url(search.svg);
+  }
