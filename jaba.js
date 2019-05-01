@@ -3,12 +3,7 @@ function displayclock () {
 var time = new Date();
 var hrs = time.getHours();
 var min = time.getMinutes();
-var am_pm;
-
-//checks if it's am
-if (hrs < 12) {
-    am_pm = ' am';
-}
+var am_pm = ' am';
 
 // checks if it's pm
 if (hrs > 12) {
