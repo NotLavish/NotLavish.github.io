@@ -61,7 +61,7 @@ header {
   }
   
 .icon:hover {
-    transform: scale(1.6);
+  transform: scale(2) rotatez(10deg);
   }
 
 .form-control {
