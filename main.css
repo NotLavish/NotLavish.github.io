@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    background: #3f4f73;
+    font-family: 'Teko', sans-serif;
+    background: #8297B6;
 }
 
 #clock {
     text-transform: uppercase;
-    font-size: 100px;
+    font-size: 150px;
     display: flex;
     justify-content: center;
     margin: 0%;
@@ -30,7 +30,7 @@ header {
 }
 
 .icon {
-    margin-top: 10%;
+    margin-top: 5%;
     text-indent: -9999px;
     width: 100px;
     height: 100px;
@@ -41,23 +41,23 @@ header {
   }
   
 .yt {
-    background-image: url(youtube.svg);
+    background-image: url(youtube.png);
   }
   
 .tw {
-    background-image: url(twitter.svg);
+    background-image: url(twitter.png);
   }
   
 .gh {
-    background-image: url(github.svg);
+    background-image: url(github.png);
   }
   
 .gm {
-    background-image: url(gmail.svg);
+    background-image: url(email.png);
   }
   
 .rd {
-    background-image: url(reddit.svg);
+    background-image: url(reddit.png);
   }
   
 .icon:hover {
@@ -65,12 +65,12 @@ header {
   }
 
 .form-control {
-    font-family: 'Exo', sans-serif;
-    margin-top: 1%;
+    font-family: 'Teko', sans-serif;
+    margin-top: 0%;
     font-size: 30px;
     border-radius: 15px;
-    border: 7px solid #242e42;
-    background-color: #888fa0;
+    border: 7px solid #B5C7E1;
+    background-color: #B5C7E1;
     width: 300px;
     height: 30px;
   }
